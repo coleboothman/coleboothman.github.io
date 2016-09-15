@@ -1,0 +1,343 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+	height: 100vh;
+	position: relative;
+	background: url(../images/Background2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title-page {
+	font-family:'Open Sans', sans-serif;
+	width: 600px;
+	padding-bottom: 125px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F0F8FF;
+}
+
+
+#scroll {
+	bottom: 0px;
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 80px;
+	background-color: #222222;
+	z-index: 6;
+	text-align: center;
+	right: 5%;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.glyphicon-chevron-down {
+	font-size: 35px;
+	padding-top: 25px;
+
+}
+
+#cole{
+	font-size: 75px;
+	font-weight: 600;	
+}
+
+.hero i {
+	font-size: 25px;
+	padding-top: 25px;
+}
+
+.above_col{
+	text-align: center;
+}
+
+#profile {
+	font-size: 75px;
+	padding-top: 50px;
+	color: #5F9EA0;
+	font-weight: 300;
+}
+
+#profile_pic {
+	width: 95%;
+	border-radius: 50%;
+	border: 10px solid #FDF5E6;
+}
+
+.content {
+	height: 490px;
+}
+
+.left {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.center {
+	text-align: center;
+
+}
+
+#second_line {
+	width: 62%;
+	background-color: grey; height:1px; 
+}
+
+#about {
+	color: #5F9EA0;
+}
+
+#hello {
+	color: #808080;
+}
+
+.bio-para {
+	font-size: 15px;
+	text-align: left;
+	padding: 0 50px ;
+
+}
+
+#para {
+	padding-left: 75px;
+}
+
+#para2 {
+	max-width: 250px;
+}
+
+
+#goal {
+	color: #5F9EA0;
+	
+}
+
+.projects {
+	background-color: #BFD4DC ;
+	width: 100%;
+	height: 1700px;
+}
+
+#header3 {
+	font-size: 75px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	color: #5F9EA0;
+	text-align: center;
+	font-weight: 300;
+}
+
+#borderline3 {
+	width: 61%;
+}
+
+.images_pg3 {
+	text-align: right;
+	padding-right: 35px;
+}
+
+.battlesnake img {
+	width: 220px;
+	margin: 0;
+	border-radius: 15px;
+	margin-bottom: 60px;
+	margin-left: 335px;
+	
+}
+
+.commenter img {
+	width: 220px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+	margin-left: 335px;
+}
+
+.starship img {
+	width: 220px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+	margin-left: 335px;
+}
+
+.draw img {
+	width: 220px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+	margin-left: 335px;
+}
+
+.website img {
+	width: 220px;
+	border-radius: 15px;
+	margin-bottom: 60px;
+	margin-left: 335px;
+}
+
+#titles {
+	font-size: 25px;
+}
+
+.abilities {
+	height: 950px;
+	width: 100%;
+}
+
+#skills {
+	color: #5F9EA0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 97px;
+
+}
+
+#para3 {
+	width: 450px;
+	margin-top: 20px;
+
+}
+
+#gitlink {
+	margin-top: 10px;
+}
+
+.glyphicon.filled {
+	color: #5F9EA0;	
+}
+
+
+.glyphicon {
+	color: #DFE0E0;
+}
+
+.languages {
+	text-align: center;
+}
+
+.ability_score {
+	display: inline-block;
+	width: 100px;
+	
+}
+
+.ability_title {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	width: 200px;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+#tools {
+	color: #5F9EA0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 35px;
+}
+
+.tool_title {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	width: 275px;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.tool_score {
+	display: inline-block;
+	width: 100px;
+
+}
+
+#language {
+	color: #5F9EA0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 96px;
+}
+
+.contact_me {
+	background-color: #434242;
+	height: 700px;
+}
+
+#header_contact {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 75;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+#quote {
+	color: #727878;
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+}
+
+#last_border {
+	width: 1000px;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #727878;
+    margin-top: 75px;
+   
+}
+
+#links {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	width: 500px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #B3B3B3;
+	padding-left: 175px;
+}
+
+#icons {
+	font-size: 40px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+#links_right {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 300;
+	width: 500px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #B3B3B3;
+}
+
+#resume_button {
+	margin-top: 40px;
+	font-size: 16px;
+}
+
