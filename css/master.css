@@ -198,7 +198,7 @@ html,body {
 
 
 .battlesnake img {
-	width: 220px;
+	width: 250px;
 	margin: 50px;
 	float: right;
 	border-radius: 15px;
@@ -209,28 +209,28 @@ html,body {
 }
 
 .commenter img {
-	width: 220px;
+	width: 250px;
 	border-radius: 15px;
 	margin: 50px;
 	float: right;
 }
 
 .starship img {
-	width: 220px;
+	width: 250px;
 	border-radius: 15px;
 	margin: 50px;
 	float: right;
 }
 
 .draw img {
-	width: 220px;
+	width: 250px;
 	border-radius: 15px;
 	margin: 50px;
 	float: right;
 }
 
 .website img {
-	width: 220px;
+	width: 250px;
 	border-radius: 15px;
 	margin: 50px;
 	float: right;
@@ -374,6 +374,7 @@ html,body {
 	padding-bottom: 10px;
 	color: #B3B3B3;
 	padding-left: 200px;
+
 }
 
 #icons {
@@ -391,10 +392,15 @@ html,body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #B3B3B3;
+	
 }
 
 #resume_button {
 	margin-top: 40px;
 	font-size: 16px;
 }
+ 
+
+
+
 
