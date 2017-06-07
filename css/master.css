@@ -325,7 +325,7 @@ VIEWPORT SMALLER WIDTH THAN 1550px (labtops)
 		margin-bottom: 125px;
 	}
 
-	#title {
+	#desc h1 {
 		font-size: 35px;
 	}
 
@@ -337,5 +337,10 @@ VIEWPORT SMALLER WIDTH THAN 1550px (labtops)
 		margin-bottom: 75px;
 	}
 
-
+	#project-cards {
+		padding-top: 3%
+	}
 }
+
+
+
