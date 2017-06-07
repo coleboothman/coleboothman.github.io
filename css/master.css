@@ -126,7 +126,7 @@ html,body {
 #cool-stuff {
 	font-size: 20px;
 	line-height: 1.5;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 #menu  {
@@ -302,7 +302,9 @@ a {
 
 #project-page p {
 	color: rgba(0,0,0,0.6);
+
 }
+
 #source-code {
 	font-size: 25px;
 	margin-left: 10%;
@@ -312,3 +314,28 @@ a {
 /* 
 ADD OVERFLOW-Y HIDDEN FOR DESKTOP
 */
+
+/***
+VIEWPORT SMALLER WIDTH THAN 1550px (labtops)
+
+***/
+@media screen and (max-width: 1550px) {
+	#logo {
+		padding-top: 25px;
+		margin-bottom: 125px;
+	}
+
+	#title {
+		font-size: 35px;
+	}
+
+	#me {
+		width: 60% !important;
+	}
+
+	#cool-stuff {
+		margin-bottom: 75px;
+	}
+
+
+}
