@@ -1,16 +1,6 @@
 html,body {
 	margin: 0px;
 	padding: 0px;
-<<<<<<< HEAD
-	overflow-x: hidden;
-	height:100%;
-	width: 100%;
-	
-}
-
-html,body {
-	margin: 0px;
-	padding: 0px;
 	overflow-x: hidden;
 	height:100%;
 	width: 100%;
@@ -321,6 +311,9 @@ a {
 	color: #33A5FF !important;
 }
 
+#proj-bounce {
+	display: none;
+}
 /* 
 ADD OVERFLOW-Y HIDDEN FOR DESKTOP
 */
@@ -461,10 +454,12 @@ VIEWPORT SMALLER WIDTH THAN 1550px (labtops)
 
 	#proj-bounce {
 		position: relative;
-		margin-bottom: 15px;
+		padding-bottom: 15px;
 		left: 15px;
 		width: 30px;
 		height: 30px;
+		display: block;
+		margin: 0 auto;
 	}
 
 	#project-page h1 {
