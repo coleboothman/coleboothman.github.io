@@ -371,14 +371,28 @@ VIEWPORT SMALLER WIDTH THAN 1550px (labtops)
 	}
 
 	#cool-stuff {
-		margin-bottom: 75px;
+		margin-bottom: 25px;
 	}
 
 	#project-cards {
 		padding-top: 3%
 	}
+
+	#fake {
+		margin-bottom: 40px;
+	}
 }
 
+/* Better whitespace for Macbooks */
+@media screen and (max-width: 1450px) {
+	#fake {
+		margin-bottom: 40px;
+	}
+	#cool-stuff {
+		margin-bottom: 40px;
+	}
+
+}
 
 /*
 	Tablets
