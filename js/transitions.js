@@ -117,7 +117,7 @@ _.---:         :___   :        :
 
 	// On page load, choose one of the different silly professions to display.
 	let rand0To6 = Math.floor(Math.random() * 8);
-	let professions = ["Aerospace Architect.", "CTO of Google™.", "Wall Street Lawyer.", "Hollywood Actor.", 
+	let professions = ["Aerospace Architect.", "CTO of $LARGE_TECH_COMPANY.", "Wall Street Lawyer.", "Hollywood Actor.", 
 	"Heart Surgeon.", "Olympic Athlete.", "Famous DJ.", "Cirque du Soleil Acrobat." ]
 	document.getElementById("professions").innerHTML = professions[rand0To6];
 
