@@ -1,0 +1,77 @@
+/*
+    Hello! 
+
+    Thanks for visiting my website. I made this website as a student back in 2017 
+    as a project to learn more about simple front end web development. I am in the 
+    ongoing process of cleaning it up (as time permits), so please understand
+    some of wacky code as the mishaps of a junior comp sci student! ;) 
+
+            ....,,
+          .::o::;'          .....
+         ::::::::        .::::o:::.,
+        .::' `:::        :::::::''"
+        :::     :       ::'   `.
+       .:::     :       :'      ::
+      .:::       :     ,:       `::
+     .' :        :`. ." :        :::
+    .' .:        :  :  .:        : :
+    : ::'        ::. :' :        : :
+    :: :         :`: :  :        :`:
+    :  :         :  ''  :        : '
+  _.---:         :___   :        :
+       :        :`   `--:        :
+        : :---: :        : :---: :`---.
+        '```  '```      '''   ''''
+
+    Best, 
+
+    Cole
+
+*/
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.img-bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite
+}

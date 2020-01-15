@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+	<meta name="author" content="Cole Boothman">
+	<meta http-equiv="content-language" content="english">
+	<meta name="description" content="I'm Cole Boothman, a new computer science graduate working as a Software Engineer in the Bay Area.">
+	<meta name="keywords" content="Cole Boothman, Interactive Resume, UVic Student, Web developer, Startup, Interactive CV, Resume, CV, Software Engineer, Web Developer, Algorithms, PHP, MySQL, OOP">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="14 days">
+
+	<title>Cole Boothman</title>
+
+	<link rel="stylesheet" href="css/master.css">
+	<link href="https://unpkg.com/tachyons/css/tachyons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/animations.css">
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  	ga('create', 'UA-84297248-1', 'auto');
+  	ga('send', 'pageview');
+  	</script>
+</head>
+
+<body>
+	<!--
+		Hello! 
+
+		Thanks for visiting my website. I made this website as a student back in 2017 
+		as a project to learn more about simple front end web development. I am in the 
+		ongoing process of cleaning it up (as time permits), so please understand
+		some of wacky code as the mishaps of a junior comp sci student! ;) 
+
+			      ....,,
+		        .::o::;'          .....
+		       ::::::::        .::::o:::.,
+		      .::' `:::        :::::::''"
+		      :::     :       ::'   `.
+		     .:::     :       :'      ::
+		    .:::       :     ,:       `::
+		   .' :        :`. ." :        :::
+		  .' .:        :  :  .:        : :
+		  : ::'        ::. :' :        : :
+		  :: :         :`: :  :        :`:
+		  :  :         :  ''  :        : '
+		_.---:         :___   :        :
+		     :        :`   `--:        :
+		      : :---: :        : :---: :`---.
+		      '```  '```      '''   ''''
+
+		Best, 
+
+		Cole 
+	-->	
+	<div id="page">
+		<div id = "home-page">
+			<div id="logo">
+				<img id="img-logo" src = "images/cb.jpg">
+			</div>	
+			<div id = "desc">
+				<h1 id="title" class = "text"> Hi there! 👋 I'm Cole Boothman. Software Engineer, Classical Pianist, Aspiring Cook, <span id = "easter-egg">Penguin Fan</span> AND <span id = "professions"> Olympic Athlete. </span></h1>
+				<img id="geo" src = "https://s-media-cache-ak0.pinimg.com/originals/9c/3f/5e/9c3f5e7411c638cb6c07253ed32a89f4.gif">
+				<p class = "text" id = "fake">(OK, maybe scratch that last part.)</p> 
+				<p  id="me" class = "text"> Computer Science Graduate from <a class="no-underline color-inherit bb color-animate hover-dark-red" href="http://www.uvic.ca/engineering/computerscience/index.php" target="_blank">UVic</a> in Victoria, BC. Previous Software Engineer intern at <a class="no-underline color-inherit bb color-animate hover-dark-red" href="https://www.workday.com" target="_blank">Workday, Inc.</a> and <a class="no-underline color-inherit bb color-animate hover-dark-red" href="https://www.encorefx.com" target="_blank">EncoreFX.</a>
+				Currently a 🇨🇦 expat working as a Full Stack Software Engineer in the Bay Area 🌉. 
+				<p id = "cool-stuff" class = "text"> Things I think are <span class='bigger'>AWESOME:</span> <br>
+				 Machine Learning (Self Driving Cars!), Hip Hop Music, Natural Language Processing, Chinese Food, Traveling and Space Exploration.</p>  
+				<p id = "menu"> <span id= "contact">CONTACT </span> <span id ="proj"> PROJECTS</span></p>		
+			</div>
+		</div>
+		<div id = "contact-page">
+			<h1 id = "contact-title"> Let's get in Touch. </h1>
+			<div id = "contact-photos">
+				<a href = "https://www.linkedin.com/in/cole-boothman-b9b4b5125/" target="_blank">
+					<img id = "linked-in" class =  "c-img" src = "images/linkedin.png">
+				</a>	
+				<a href="mailto:cwboothm@gmail.com" target ="_blank">
+					<img id = "gmail" class =  "c-img"src = "images/gmail.png">
+				</a>
+				<a href="https://github.com/coleboothman" target="_blank">
+					<img id = "github" class =  "c-img"src = "images/github.png">
+				</a>
+				<a href="Cole-Boothman-Resume.pdf" target="_blank">
+					<img id = "resume" class =  "c-img"src = "images/buisness.png">
+				</a>
+			</div>	
+			<div class = "arrow-bounce">
+			 	<img class ="img-bounce" src="images/arrow.jpg">
+			 </div>	
+		</div>	
+		<div id = "project-page">
+			<div id = "proj-header">
+				<h1 id = "proj-title"> Projects </h1>
+				<p id= "source-code"> Click on a project to view the source code on Github. </p>
+				<!-- Arrow for Mobile only -->
+				<div class = "arrow-bounce">
+			 		<img id = "proj-bounce" class ="img-bounce" src="images/arrow.jpg">
+			 	</div>	
+		
+			</div>	
+			<div id = "project-cards">
+					<div id = "nlp" class="card">
+						<a href="https://github.com/coleboothman/NLP-Bayes" target="_blank">	
+					  		<img src="images/nlp.png" alt="Avatar" style="width: 100%;">
+						</a>
+					  <div class="container">
+					    <h4><b>Naive Bayes Classifer</b></h4> 
+					    <p>Natural Language Proccessing Machine that determines sentiment in movie reviews. Implemented in python.</p> 
+					  </div>
+					</div>
+					<div id = "apollo" class="card">
+					  	<a href="https://github.com/coleboothman/Space_Game" target="_blank">	
+					  		<img src="images/starship.png" alt="Avatar" style="width: 100%">
+					  	</a>	
+					  <div class="container">
+					    <h4><b>Apollo Ascends: 2D Space Game</b></h4> 
+					    <p>Arcade style space shooter game created with Java, Pixel Sheets and Paint.net.</p> 
+					  </div>
+					</div>
+					<div id = "pursuit" class="card">
+						<a href="https://github.com/coleboothman/265Draw" target="_blank">	
+					  		<img src="images/square.png" alt="Avatar" style="width: 100%">
+					  	</a>
+					  <div class="container">
+					    <h4><b>Pursuit Polygon SVG Art</b></h4> 
+					    <p>Python program that takes simple (x,y) line/point classes and generates pursuit polygon SVGS.</p> 
+					  </div>
+					</div>
+					<div id = "snake" class="card">
+						<a href="https://github.com/coleboothman/bs2017" target="_blank">	
+					  		<img src="images/battlesnake.png" alt="Avatar" style="width: 100%">
+					  	</a>
+					  <div class="container">
+					    <h4><b>BattleSnake 2016, 2017 Programming Competitions</b></h4> 
+					    <p>Programming Competition where teams built AI "snakes" to compete against one another. Reached semifinal rounds both years.</p> 
+					  </div>
+					</div>
+				
+			</div>	
+			<div class = "arrow-bounce">
+			 	<img id = "proj-bounce-bottom" class ="img-bounce" src="images/arrow.jpg">
+			</div>	
+		</div>
+		<div id = "comic-strips">
+			<img id = "calvin-hobbes" src = "">
+			<div class = "arrow-bounce">
+			 	<img id = "proj-bounce-bottom" class ="img-bounce" src="images/arrow.jpg">
+			</div>	
+		</div>
+		<div id = "easter-egg-penguin">
+			<img class = "pengu" src="https://i.giphy.com/3o85xIAka4gHdlRt3a.webp" alt="" title="">
+			<img class = "pengu" src="https://i.giphy.com/3o85xIAka4gHdlRt3a.webp" alt="" title="">
+			<img class = "pengu" src="https://i.giphy.com/3o85xIAka4gHdlRt3a.webp" alt="" title="">
+			<div id="snow">
+			</div>
+		</div>	
+			
+	</div>	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src = "js/transitions.js"></script>
+</body>
+</html>
